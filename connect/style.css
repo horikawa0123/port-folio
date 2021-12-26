@@ -1,0 +1,281 @@
+@charset "UTF-8";
+
+html{
+	font-family: 'Kiwi Maru', serif;
+	margin:　0;
+
+}
+
+body{
+	margin: 0;
+	margin-top: 10px;
+}
+
+main{
+	background-image: url("image/main2.jpg");
+	background-position: top center;
+	background-size:contain;
+	background-repeat: no-repeat;
+    max-width: 100%;
+	height: 800px;
+	margin-top: -5px;
+}
+.visual{
+	display: none;
+    text-align: center;
+}
+.visual img{
+	max-width: 920px;
+	visibility:visible;
+}
+.jushou{
+	font-size: 13px;
+	line-height: 200%;
+	letter-spacing: 7px;
+    margin-left: 5%;
+	position:inherit;
+	text-align: left;
+	
+}
+.jushou::first-line{
+	letter-spacing: 2px;
+
+}
+
+.nav ul{
+    margin-top: -70px;
+    text-align: right;
+    font-size: 19px;
+	line-height: 300%;
+	letter-spacing: 2px;
+	list-style:none;
+	margin-right: 5%;
+	
+
+}
+
+.nav li{
+	padding: 15px;
+
+}
+
+.media-nav{
+	font-size: 0;
+}
+
+
+.message img{
+     margin-bottom: 115px;
+}
+
+.message p{
+	margin-top: 80px;
+	margin-bottom: 200px;
+	margin-left: 100px;
+	font-size: 20px;
+	letter-spacing: 4px;
+	line-height: 400%;
+	display: inline-block;
+	text-align: left;
+}
+
+.message{
+	text-align: center;
+/*	margin-top: 200px;*/
+
+}
+
+
+.seisaku{
+	text-align: center;
+}
+.seisaku img{
+	box-shadow: 4px 4px 4px #ccc;
+}
+.seisaku h1{
+	font-weight: bold;
+	font-size: 35px;
+	letter-spacing: 7px;
+
+	border: solid 2px #000000;
+	border-bottom: 0px;
+	border-top:0px;
+    padding: 0px 40px;    
+	width: 200px;
+	margin: auto;
+		}
+
+.seisaku ul{
+	display: flex;
+	list-style: none;
+    justify-content: center;
+	flex-wrap: wrap;
+	gap:120px;
+	margin-top: 150px;
+}
+
+
+
+.footer p{
+	height: 90px;
+	font-size: 12px;
+	text-align: center;
+	width: 100%;
+	background-color: #C8C8C8;
+	margin: 0;
+	padding-top: 40px;
+}
+
+.back {
+	height: 100px;
+	margin-bottom: 150px;
+	text-align: left;
+}
+
+.back p{
+	text-align: right;
+	padding-right: 30px;
+	margin: auto;
+	margin-left:0px;
+	width: 70%;
+	font-size: 23px;
+	font-weight:bold;
+	letter-spacing: 5px;
+	color: #FFFFFF;
+	background-color: #DAC60A;
+	border-radius: 0px 7px 7px 0px;
+	box-shadow: 4px 4px 4px #ccc;
+	
+}
+
+/*リンクボタン*/
+
+	a{
+	color: #000000;
+    text-decoration: none;
+	
+}
+
+a:hover{
+	color:#717171;
+}
+
+.seisaku a:hover img {
+  filter: alpha(opacity=90);
+  -moz-opacity: 0.9;
+	opacity: 0.5;}
+
+.back a:hover  {
+  filter: alpha(opacity=90);
+  -moz-opacity: 0.9;
+	opacity: 0.5;}
+
+@media (max-width:900px){
+	body{
+		margin-top: -20px;
+	}
+
+@media (max-width:900px){
+	main{
+		background-image: none;
+		height: auto;
+		
+	}}
+
+@media (max-width:900px){
+	.jushou{
+	font-size: 10px;
+	line-height: 140%;
+	letter-spacing: 7px;
+	margin: auto;
+	margin-bottom: 40px;
+	text-align: center;
+	}
+
+@media (max-width:900px){
+	.nav{
+		display: none;
+	}
+	
+@media (max-width:900px){
+	.visual{
+		display: contents;
+	}
+	}}
+
+
+@media (max-width:900px){
+	.media-nav ul{
+        width: 100%;
+		font-size: 12px;
+		display: flex;		
+		justify-content: center;
+		list-style: none;
+		margin-right: 0px;
+		padding: 0px;
+		text-align: center;
+		margin-top: 10px;
+		margin-bottom: 100px;
+	}}
+
+@media (max-width:900px){
+	.media-nav li{
+        padding: 20px;
+	}}
+@media (max-width:900px){
+	.concept img{
+		width: 200px;
+	}
+@media(max-width:900px){
+	.message p{
+		font-size: 11px;
+		margin: 0;
+		letter-spacing: 1px;
+        margin-left: 20px;
+		margin-bottom: 150px;
+		}}
+	
+@media(max-width:900px){
+	.seisaku ul{
+		display: block;
+		margin-right: 40px;
+	}
+		}}
+	
+	@media(max-width:900px){
+		.seisaku li{
+			padding:0px;
+		}
+	}
+	@media(max-width:900px){
+		.seisaku h1{
+			font-size: 25px;
+			border: solid 2px #000000;
+			border-bottom: 0px;
+			border-top:0px;
+			padding: 2px;
+			width: 200px;
+			margin: auto;
+		}
+	}
+	@media(max-width:900px){
+		.back{
+			margin: 0;
+			width: 100%;
+			text-align: center;
+			
+		}
+	}
+	@media(max-width:900px){
+		.back p{
+			text-align: center;
+			padding: 0;
+			border-radius: 5px;
+		}
+	}
+	
+	@media(max-width:900px){
+		.footer p{
+			margin: 0;
+		}
+	}

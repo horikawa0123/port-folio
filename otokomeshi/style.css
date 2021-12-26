@@ -1,0 +1,458 @@
+@charset "UTF-8";
+/* CSS Document */
+html{
+	font-family: 'Yuji Syuku', serif;
+}
+body{
+	margin: 0;
+	margin-top: 20px;
+}
+
+/*リンクボタン*/
+
+	nav a{
+	color: #FFFFFF;
+    text-decoration: none;
+	
+}
+	footer a{
+	color: #000000;
+    text-decoration: none;
+	
+}
+a:hover{
+	color:#808080;
+}
+
+
+
+.logo{
+	text-align: center;
+	margin-top: 30px;
+}
+nav{
+	
+}
+nav ul{
+	list-style: none;
+	display: flex;
+	justify-content:space-between;
+	padding: 10px 50px 10px 50px;
+	margin-top: 60px;
+	background-color: #681A1B;
+	color: #FFFFFF;
+	font-size: 22px;
+	letter-spacing: 2px;
+	margin-bottom: 50px;
+}
+
+.kakikomi{
+	background-image: url("image/chubo.jpg");
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: flex;
+	margin-bottom: 0;
+}
+.kakikomi h1{
+	color: #FFFFFF;
+	background-color: #681A1B;
+	outline: solid 1px #FFFFFF;
+	outline-offset: -9px;
+	margin-left: 12%;
+	margin-top: 150px;
+	margin-bottom: 150px;
+	padding: 90px 20px 90px 30px;
+	letter-spacing: 3px;
+	line-height: 170%;
+}
+.kakikomi p{
+	font-size: 20px;
+	letter-spacing: 4px;
+	line-height: 230%;
+	width: 40%;
+	color: #FFFFFF;
+	margin-left: 10%;
+	margin-top: 170px;
+}
+
+.kodawari{
+	background-color: #04091C;
+	border-top: solid 70px #04091C;
+}
+
+.kodawari h1{
+	color: #FFFFFF;
+	background-color: #681A1B;
+	outline: solid 1px #FFFFFF;
+	outline-offset: -9px;
+	padding: 15px 0px 15px 0px;
+	letter-spacing: 3px;
+	text-align: center;
+	margin: auto;
+	margin-top: 100px;
+	width: 500px;
+}
+
+.tare{
+	display: flex;
+}
+.tare h2{
+	font-size: 30px;
+	color: #FFFFFF;
+	letter-spacing: 4px;
+	margin-left: 20%;
+	margin-top: 170px;
+	border-bottom: solid 2px #7B181A;
+	padding-bottom: 5px;
+}
+.tare p{
+	font-size: 20px;
+	letter-spacing: 4px;
+	line-height: 230%;
+	width: 55%;
+	color: #FFFFFF;
+	margin-left: 20%;
+	
+}
+.tare img{
+	margin-top: 150px;
+	margin-right: 10%;
+}
+.tare-copy2 {
+	display: none;
+		       letter-spacing: 4px;
+	        line-height: 230%;
+		    color: #FFFFFF;
+}
+.tare-copy2 p{
+	width: 70%;
+	margin: auto;
+}
+.kome{
+	display: flex;
+}
+
+.kome h2{
+	font-size: 30px;
+	color: #FFFFFF;
+	letter-spacing: 4px;
+	margin-right: 20%;
+	margin-top: 170px;
+	border-bottom: solid 2px #7B181A;
+	padding-bottom: 5px;
+	margin-left: 80px;
+	text-align: right;
+}
+.kome p{
+	font-size: 20px;
+	letter-spacing: 4px;
+	line-height: 230%;
+	width: 55%;
+	color: #FFFFFF;
+	text-align: right;
+	margin: auto;	
+}
+
+.kome img{
+	margin-top: 150px;
+	margin-left: 20%;
+}
+
+.kome-copy2{
+	display: none;
+}
+.tarekome{
+	text-align: center;
+}
+.tarekome p{
+	font-size: 18px;
+	letter-spacing: 4px;
+	line-height: 200%;
+	text-align: center;
+	color: #FFFFFF;
+	margin-top: 200px;
+}
+
+.tarekome img{
+	margin-top: 70px;
+	margin-bottom: 160px;
+}
+
+.acsess{
+	text-align: center;
+	background-color: #04091C;
+}
+
+.acsess h1{
+		color: #FFFFFF;
+	background-color: #681A1B;
+	outline: solid 1px #FFFFFF;
+	outline-offset: -9px;
+	padding: 15px 0px 15px 0px;
+	letter-spacing: 3px;
+	text-align: center;
+	margin: auto;
+	width: 500px;
+	margin-bottom: 100px;
+}
+
+table{
+	font-size: 20px;
+	color: #FFFFFF;
+	text-align: left;
+	margin: auto;
+	margin-top: 70px;
+	padding-bottom: 100px;
+	letter-spacing: 3px;
+}
+footer{
+	text-align: center;
+}
+footer img{
+	margin-top: 50px;
+}
+
+footer ul{
+	display: flex;
+	justify-content: space-between;
+	list-style:none;
+	padding: 20px 100px;
+	font-size: 20px;
+}
+footer p{
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+
+/*２ページ目*/
+	
+	.no-1{
+		margin-top: 20px;
+		margin-bottom: -20px;
+		
+	}
+
+	.menu{
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		padding-top: 70px;
+		padding-bottom: 80px;
+		background-color: #04091C;
+		
+		
+		
+	}
+
+.food{
+	padding: 20px;
+}
+
+
+/*レスポンシブ*/
+
+@media(max-width:900px){
+	.logo img{
+		width: 45%;
+	}}
+@media(max-width:900px){
+	nav ul{
+		font-size: 12px;
+		margin-bottom: 30px;
+		margin-top:0;
+		margin-top: 25px;
+		letter-spacing: 1px;
+		padding: 15px;
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+}
+
+@media(max-width:900px){
+	.kakikomi{
+		display: block;
+			background-image: url("image/chubo.jpg");
+	background-size:cover;
+	background-repeat: no-repeat;
+	margin-bottom: 0;
+	padding-top: 10px;
+	}}
+	
+@media(max-width:900px){
+	.kakikomi h1{
+		font-size: 18px;
+		padding: 20px;
+		margin: 0 auto ;
+		margin-top: 70px;
+		width: 50%;
+		text-align: center;
+	}}
+	
+@media(max-width:900px){
+	.kakikomi p{
+		width: 70%;
+		font-size: 12px;
+		margin: auto;
+        margin-top: 50px;
+		padding-bottom: 50px;
+		
+	}}
+	
+@media(max-width:900px){
+     .kodawari h1{
+	color: #FFFFFF;
+	background-color: #681A1B;
+	outline: solid 1px #FFFFFF;
+	outline-offset: -9px;
+	padding: 15px 20px 15px 20px;
+	text-align: center;
+	margin: auto;
+	margin-top: 50px;
+	width: 50%;
+	font-size: 19px;
+	}}
+
+@media(max-width:900px){
+	.tare{
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+	}
+	}
+	
+	@media(max-width:900px){
+		.tare h2{
+			font-size: 22px;
+			text-align: center;
+			margin: 0 auto;
+			margin-top: 80px;
+			padding-bottom: 10px;
+		}}
+		
+	@media(max-width:900px){
+		.tare p{
+			display: none;
+			letter-spacing: 2px;
+		}
+		}
+
+	@media(max-width:900px){
+		.tare img{
+			margin: 0 auto;
+			margin-top: 50px;
+			margin-bottom: 30px;
+			width: 100%;
+		}
+@media(max-width:900px){
+	.tare-copy2 {
+		    display:contents;
+			font-size: 12px;
+
+	}}
+
+		@media(max-width:900px){
+			.kome{
+				display: block;
+				text-align: center;
+			}
+		}
+		
+		@media(max-width:900px){
+			.kome img{
+				margin: auto;
+				margin-top: 100px;
+				width: 100%;
+			}
+		}
+@media(max-width:900px){
+	.kome h2{
+		font-size: 22px;
+			text-align: center;
+			margin: 0 auto;
+			margin-top: 80px;
+		    margin-bottom: 20px;
+			padding-bottom: 10px;
+	}}
+	
+
+	@media(max-width:900px){
+	.kome-copy2 img{
+           margin-top: 50px;
+		   margin-bottom: 30px;
+		}}
+	
+	@media(max-width:900px){
+		.kome p{
+			font-size: 12px;
+	         letter-spacing: 2px;
+	         line-height: 230%;
+	         width: 70%;
+	         color: #FFFFFF;
+	         margin: auto;
+			text-align: left;
+		}
+	}
+		@media(max-width:900px){
+			.tarekome p{
+				font-size: 12px;
+				margin:0 auto;
+				margin-top: 50px;
+				letter-spacing: 2px;
+			}
+		}
+		
+		@media(max-width:900px){
+			.tarekome img{
+				width: 90%;
+				margin: auto;
+				margin-top: 20px;
+				margin-bottom: 90px;
+			}
+		}
+@media(max-width:900px){
+	.acsess h1{
+		color: #FFFFFF;
+	background-color: #681A1B;
+	outline: solid 1px #FFFFFF;
+	outline-offset: -9px;
+	padding: 15px 10px 15px 10px;
+	text-align: center;
+	width: 50%;
+	font-size: 19px;
+	margin-bottom: auto;
+		margin-bottom: 50px;
+		margin-top: -10px;
+	}}
+@media(max-width:900px){
+	.acsess iframe{
+		width: 90%;
+	}}
+@media(max-width:900px){
+	table{
+		font-size: 13px;
+		letter-spacing: 1px;
+	}}
+	
+@media(max-width:900px){
+	footer ul{
+		font-size: 11px;
+		padding: 5px;
+	}}
+	
+@media(max-width:900px){
+	footer p{
+		font-size: 10px;
+		margin-top: 40px;
+	}}
+		
+@media(max-width:900px){
+	.menu img{
+	    width: 150px;
+		
+	}
+
+	@media(max-width:900px){
+.food{
+	padding: 10px;
+}
