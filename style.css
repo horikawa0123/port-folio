@@ -1,0 +1,326 @@
+@charset "UTF-8";
+body{
+    margin: 0;
+	margin-top: 0px;
+}
+*{
+	font-family: serif;
+
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+.top{
+	position: relative;
+}
+
+.top h1{
+	color: #FFFFFF;
+	font-size: 70px;
+	letter-spacing: 10px;
+	position:absolute;
+	max-width: 100%;
+    max-height: 100%;
+    left: 40px;
+	top:350px;
+	
+}
+
+.about{
+	margin-top: -10px;
+	position: relative;
+	
+}
+
+.profile{
+	color:#FFFFFF;
+	position: absolute;
+	max-width: 100%;
+    max-height: 100%;
+    right: 100px;
+    top:60px;
+}
+.name{
+	text-align: center;
+	margin-right: 20px;
+}
+
+.name h1{
+	font-size: 30px;
+	letter-spacing: 5px;
+}
+.name p{
+	font-size: 12px;
+	margin: 0;
+	margin-top: -15px;
+	margin-bottom: 40px;
+	letter-spacing: 3px;
+}
+
+.info p{
+	font-size: 14px;
+	letter-spacing: 3px;
+	line-height: 200%;
+}
+
+.geidai p{
+	font-size: 13px;
+	margin-top: -20px;
+}
+.concept{
+	display: flex;
+	
+}
+.copy{
+	position: absolute;
+	padding-top: 90px;
+	padding-bottom:90px;
+	padding-right: 50px;
+    letter-spacing: 3px;
+	line-height: 350%;
+	margin-left: 10%;
+	width: 80%;
+    font-weight: bold;
+	font-size: 16px;
+
+}
+
+.copy p rt{
+	letter-spacing: -4px;
+	font-size: 2px;
+}
+
+.kyo{
+   position: absolute;
+   text-align: right;
+	margin-right: 10%;
+	padding-top: 100px;
+	
+}
+.work{
+	text-align: center;
+	background-color: #092B14;
+	padding-bottom: 100px;
+	
+	
+
+
+}
+.work h1{
+	color: #FFFFFF;
+	text-align: center;
+	margin-right: 60%;
+	font-size: 40px;
+	padding-top: 80px;
+	padding-bottom: 10px;
+	letter-spacing: 4px;
+	margin-top: 750px;
+	border-bottom: solid 2px #FFFFFF;
+}
+.works{
+	text-align: center;
+	display: inline-block;
+	font-size: 11px;
+	color: #FFFFFF;
+	padding: 30px;
+	
+}
+.works img{
+	max-width:200px;
+	box-shadow:4px 4px 4px 4px #0E1A0A ;
+}
+
+footer{
+	padding: 15px;
+	text-align: center;
+	background-color: #FFFFFF;	
+}
+
+
+.go-to-top{
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+}
+.go-to-top button{
+	display: inline-block;
+	padding: 10px;
+	background-color: #898989;
+	border: none;
+	border-radius: 50%;
+	color: #fff;
+	cursor: pointer;
+}
+
+.works a:hover img {
+  filter: alpha(opacity=70);
+  -moz-opacity: 0.7;
+	opacity: 0.7;}
+
+@media (max-width:1200px){
+	.top h1{
+		margin: 0;
+		    left: 40px;
+	top:0px;
+	font-size: 60px;
+	}
+}
+
+@media (max-width:900px){
+	.name {
+		margin: 0;
+	    margin-top:-50px;
+		text-align: right;
+	}}
+@media (max-width:900px){
+	.name h1{
+		font-size: 20px;
+	    margin-right: -20px;
+	}}
+
+@media (max-width:900px){
+	.name p{
+		font-size: 12px;
+	margin-right: -30px;}}
+
+@media (max-width:900px){
+	.info{
+	    text-align: right;
+		margin-right: -50px;
+		letter-spacing: 2px;
+	}}
+@media (max-width:900px){
+	.info p{
+		font-size:10px;
+	}
+@media (max-width:900px){
+	.geidai p{
+		font-size: 10px;
+	}}
+
+@media (max-width:900px){
+	.copy{
+		font-size: 9px;
+		margin: 0;
+		max-width: 100%;
+		letter-spacing: 1px;
+		line-height: 320%;
+		margin-left: 7%;	
+	}}
+
+
+	
+	@media (max-width:900px){
+		.work h1{
+			margin-top:480px;
+			margin-right: 50%;
+			text-align: center;
+			font-size: 28px;
+			border-bottom: solid 1px;
+			
+		}
+	}
+@media (max-width:900px){
+	.works {
+		margin: 20px;
+		font-size: 8px;
+	}
+}
+
+@media (max-width:900px){
+	.work img{
+		width: 150px;
+		
+	}
+}
+
+@media (max-width:1100px){
+	.works{
+		padding: 10px;
+		font-size: 0px;
+	}
+}
+@media (max-width:700px){	
+	.kyo{
+   position: absolute;
+   text-align: right;
+	padding-top: 150px;}}
+
+
+/*iPhone*/
+
+@media (max-width:500px){
+	.top h1{
+		margin: 0;
+		    left: 20px;
+	top:110px;
+	font-size: 20px;
+	}
+}
+
+
+@media (max-width:500px){
+	.work img{
+		width: 100px;
+		
+	}
+}
+@media (max-width:500px){
+.name {
+		margin: 0;
+	    margin-top:-50px;
+		text-align: right;
+	}}
+
+@media (max-width:500px){
+	.name h1{
+		font-size: 16px;
+	    margin-right: -40px;
+		padding-top: 6px;
+	}}
+
+@media (max-width:500px){
+	.name p{
+		font-size: 0px;
+	margin-right: -80px;
+	margin-bottom: 20px;}}
+
+@media (max-width:500px){
+	.info p{
+		font-size: 4px;
+		letter-spacing: 0px;
+		margin-right: -20px;
+	}}
+	
+@media (max-width:500px){
+	.geidai p{
+	
+		letter-spacing: 0px;
+	}}
+	
+@media (max-width:500px){
+	.copy {
+		font-size: 7px;
+		max-width: 80%;
+		letter-spacing: 0px;
+		line-height: 320%;
+		margin-left: 7%;
+		
+		
+	}}
+	
+@media (max-width:500px){
+	.copy br{
+		display: none;}
+	
+@media (max-width:500px){
+	rt{
+		display: none;
+	}
+	
+@media (max-width:500px){
+	.work h1{
+		font-size: 20px;
+	}
